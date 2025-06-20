@@ -1,0 +1,23 @@
+{
+  "name": "message_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "jest": "^30.0.2"
+  },
+  "dependencies": {
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0"
+  }
+}
