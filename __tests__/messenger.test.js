@@ -19,6 +19,6 @@ describe('notifyUser', () => {
         sendMessage.mockReturnValue({ status: 'error' });
 
         expect(() => notifyUser('name', 'test')).toThrow('Message sending failed!');
-    })
-})
+    });
+});
 
